@@ -35,6 +35,7 @@ module.exports = ({ config }) => ({
       },
       {
         test: /\.(png|woff|woff2|eot|ttf|svg|jpg)$/,
+        type: 'asset/resource',
         loader: 'url-loader'
       }
     ]
