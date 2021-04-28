@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.1.5...v1.1.6) (2021-04-28)
+
+
+### Bug Fixes
+
+* changed fonts and try to fix logo error ([aabd80d](https://github.com/Manuel-Aullo/ui-components-st-design-system/commit/aabd80df650154fc178896fd61a53e1c8d125d0b))
+
 ## [1.1.5](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.1.4...v1.1.5) (2021-04-28)
 
 
