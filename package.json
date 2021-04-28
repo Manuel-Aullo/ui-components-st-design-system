@@ -58,7 +58,7 @@
     "predeploy": "npm run build-storybook",
     "deploy-storybook": "gh-pages -d storybook-static",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token aa57b2b22398"
+    "chromatic": "npx chromatic --project-token 88538cb043e0"
   },
   "babel": {
     "presets": [
