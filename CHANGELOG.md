@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.1.2...v1.1.3) (2021-04-28)
+
+
+### Bug Fixes
+
+* changed webpack configuration ([359e3d4](https://github.com/Manuel-Aullo/ui-components-st-design-system/commit/359e3d465ec422bc466027e7c535414732af3306))
+
 ## [1.1.2](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.1.1...v1.1.2) (2021-04-28)
 
 
