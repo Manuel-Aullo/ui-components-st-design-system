@@ -4,7 +4,7 @@ export const paginationTableData = [
     "Response time": "33m",
     "Type": "Change",
     "Priority": "Normal",
-    "Summary": "Your Marketplace annual subscription expiration notice for Matillion ETL for Snowflake"
+    "Summary": "Your Marketplace annual subscription "
   },
   {
     "Issue key": "OPSSOK-806",
@@ -38,7 +38,7 @@ export const paginationTableData = [
     "Response time": "33m",
     "Type": "Change",
     "Priority": "Normal",
-    "Summary": "Your Marketplace annual subscription expiration notice for Matillion ETL for Snowflake"
+    "Summary": "Matillion ETL for Snowflake"
   },
   {
     "Issue key": "OPSSOK-806",
@@ -72,7 +72,7 @@ export const paginationTableData = [
     "Response time": "33m",
     "Type": "Change",
     "Priority": "Normal",
-    "Summary": "Your Marketplace annual subscription expiration notice for Matillion ETL for Snowflake"
+    "Summary": "Marketplace annual subscription for Matillion ETL for Snowflake"
   },
   {
     "Issue key": "OPSSOK-806",
