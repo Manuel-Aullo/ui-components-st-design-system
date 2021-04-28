@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.1.3...v1.1.4) (2021-04-28)
+
+
+### Bug Fixes
+
+* changed webpack configuration loading fonts and images separated ([245efc4](https://github.com/Manuel-Aullo/ui-components-st-design-system/commit/245efc442a6dcde08164ce4c1582baf8bfd2b88c))
+
 ## [1.1.3](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.1.2...v1.1.3) (2021-04-28)
 
 
