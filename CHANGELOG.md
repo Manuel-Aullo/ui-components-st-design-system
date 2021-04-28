@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.1.4...v1.1.5) (2021-04-28)
+
+
+### Bug Fixes
+
+* changed babel configuration to copy all content from ./src ([dc658d4](https://github.com/Manuel-Aullo/ui-components-st-design-system/commit/dc658d45963c09e7f8fa624f4e438c77c0ce73ff))
+
 ## [1.1.4](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.1.3...v1.1.4) (2021-04-28)
 
 
