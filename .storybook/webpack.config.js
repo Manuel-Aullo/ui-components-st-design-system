@@ -33,31 +33,28 @@ module.exports = ({ config }) => ({
           'sass-loader'
         ]
       },
-      {
-        test: /\.(jpg|jpeg|gif|png|svg|ico)?$/,
+      { // config for images
+        test: /\.(png|svg|jpg|jpeg|gif)$/,
         use: [
           {
-            loader: 'url-loader',
+            loader: 'file-loader',
             options: {
-              fallback: 'file-loader',
-              name: 'shared/logos/[name].[ext]',
-            },
-          },
+              outputPath: 'images',
+            }
+          }
         ],
       },
-      {
+      { // config for fonts
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         use: [
           {
-            loader: 'url-loader',
+            loader: 'file-loader',
             options: {
-              fallback: 'file-loader',
-              name: 'shared/fonts/[name].[ext]',
-            },
-          },
+              outputPath: 'fonts',
+            }
+          }
         ],
       }
-
     ]
   }
 });

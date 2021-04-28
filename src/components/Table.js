@@ -43,7 +43,7 @@ const StyledTable = styled.table`
           margin-left: 5px;
           align-self: center;
           svg{ 
-            fill: ${colors.neutral.Gray3}
+            fill: ${colors.neutral.Gray3};
           }
           .ascending {
             margin-bottom: 3px;
@@ -64,7 +64,7 @@ const StyledTable = styled.table`
       color: transparent
     }
     tr {
-      border-bottom: 2px solid ${colors.neutral.CCWhite}
+      border-bottom: 2px solid ${colors.neutral.CCWhite};
       height: 56px;
       :nth-of-type(even) {
         background-color: ${colors.neutral.Gray7};
@@ -76,14 +76,14 @@ const StyledTable = styled.table`
       td {
         &.issue-key{
           font-weight: ${typography.weight.semibold};
-          color:${colors.neutral.Gray1}
+          color:${colors.neutral.Gray1};
           text-decoration: underline;
         }
         &.response-time{
           div{
-            background-color: ${colors.semantic.CCRedLight}
-            color: ${colors.semantic.CCRed}
-            font-weight: ${typography.weight.bold}
+            background-color: ${colors.semantic.CCRedLight};
+            color: ${colors.semantic.CCRed};
+            font-weight: ${typography.weight.bold};
             display: inline;
             padding: 3px 8px;
             border-radius: 4px;
