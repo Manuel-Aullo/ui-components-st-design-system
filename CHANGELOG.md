@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.1.0...v1.1.1) (2021-04-28)
+
+
+### Bug Fixes
+
+* changed package name ([4dc2abd](https://github.com/Manuel-Aullo/ui-components-st-design-system/commit/4dc2abdccd9083280c8fab7d8cbf12f10d05737c))
+* merging versions changes ([8556943](https://github.com/Manuel-Aullo/ui-components-st-design-system/commit/855694332962dcb543bcfe32685e8cfea0c7769c))
+
 # [1.1.0](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.0.0...v1.1.0) (2021-04-28)
 
 
