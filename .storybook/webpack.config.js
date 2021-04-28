@@ -34,10 +34,30 @@ module.exports = ({ config }) => ({
         ]
       },
       {
-        test: /\.(png|woff|woff2|eot|ttf|svg|jpg)$/,
-        type: 'asset/resource',
-        loader: 'url-loader'
+        test: /\.(jpg|jpeg|gif|png|svg|ico)?$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              fallback: 'file-loader',
+              name: 'shared/logos/[name].[ext]',
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              fallback: 'file-loader',
+              name: 'shared/fonts/[name].[ext]',
+            },
+          },
+        ],
       }
+
     ]
   }
 });
