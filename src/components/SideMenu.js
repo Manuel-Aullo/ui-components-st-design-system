@@ -150,7 +150,7 @@ function MobileMenu() {
     <MobileContainer>
       <MobileHeaderContainer>
         <MobileLogo>
-          <CyberLogo />
+          <img src={CyberLogo} alt="Cybercom logo" />
         </MobileLogo>
         <MobileHeader>Service Report</MobileHeader>
         <IconContainer>
@@ -184,7 +184,7 @@ function DesktopMenu() {
       </MenuToggle>
       <SideMenuContainer active={isExpanded}>
         <Logo>
-          <CyberLogo />
+          <img src={CyberLogo} alt="Cybercom logo" />
         </Logo>
         <ContentContainer>
           <Divider />

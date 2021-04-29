@@ -133,4 +133,7 @@ export default createGlobalStyle`
        url(${SourceSansProWoff2900Italic}) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url(${SourceSansProWoff900Italic}) format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
 `;

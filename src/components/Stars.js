@@ -25,14 +25,14 @@ export function Stars({ starCount, dimColor }) {
   for (let i = 0; i < starCount; i++) {
     content.push(
       <IconRect key={i}>
-        <Star />
+        <img src={Star} alt="Star"/>
       </IconRect>
     );
   }
   for (let i = 0; i < dimmedStars; i++) {
     content.push(
       <IconRect dimColor={dimColor} key={i + 5}>
-        <Star />
+        <img src={Star} alt="Star"/>
       </IconRect>
     );
   }
