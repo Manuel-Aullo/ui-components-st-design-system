@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.1.6...v1.2.0) (2021-04-29)
+
+
+### Features
+
+* removed import errors ([ebce7a4](https://github.com/Manuel-Aullo/ui-components-st-design-system/commit/ebce7a422ebc58de8b32bbe431f3e74563ff317b))
+
 ## [1.1.6](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.1.5...v1.1.6) (2021-04-28)
 
 
