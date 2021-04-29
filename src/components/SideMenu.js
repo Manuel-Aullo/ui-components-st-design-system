@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { colors, typography, device } from "../shared/styles";
 import { Icon } from "./Icon";
+import CyberLogo  from "../shared/logos/CgLogo.svg";
 import { useMediaQuery } from "react-responsive";
 import { MenuContent } from "./SideMenuContent";
 
@@ -137,8 +138,6 @@ const MobileFilterContainer = styled.div`
   padding: 0px 10px 10px;
 `;
 
-const CcLogo = require ('../shared/logos/CgLogo.svg');
-
 function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
   const menuIcon = isOpen ? "close" : "menu";
@@ -151,7 +150,7 @@ function MobileMenu() {
     <MobileContainer>
       <MobileHeaderContainer>
         <MobileLogo>
-          <CcLogo />
+          <CyberLogo />
         </MobileLogo>
         <MobileHeader>Service Report</MobileHeader>
         <IconContainer>

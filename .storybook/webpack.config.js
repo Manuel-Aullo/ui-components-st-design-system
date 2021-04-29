@@ -33,8 +33,12 @@ module.exports = ({ config }) => ({
           'sass-loader'
         ]
       },
+      {
+        test: /\.svg$/,
+        use: ['@svgr/webpack'],
+      },
       { // config for images
-        test: /\.(png|svg|jpg|jpeg|gif)$/,
+        test: /\.(png|jpg|jpeg|gif)$/,
         use: [
           {
             loader: 'file-loader',

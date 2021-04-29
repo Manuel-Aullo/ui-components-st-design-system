@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as Star } from "../shared/logos/Star.svg";
+import Star from "../shared/logos/Star.svg";
 import styled from "styled-components";
 
 const IconRect = styled.div`
