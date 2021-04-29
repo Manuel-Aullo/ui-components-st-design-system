@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.2.0...v1.2.1) (2021-04-29)
+
+
+### Bug Fixes
+
+* changed image loading ([5b88725](https://github.com/Manuel-Aullo/ui-components-st-design-system/commit/5b8872513e50c5f717896097510be2029dbf4d97))
+
 # [1.2.0](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.1.6...v1.2.0) (2021-04-29)
 
 
