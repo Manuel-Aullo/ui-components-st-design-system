@@ -17,6 +17,10 @@ module.exports = ({ config }) => ({
         ]
       },
       {
+        test: /\.mdx?$/,
+        use: ['babel-loader', '@mdx-js/loader']
+      },
+      {
         test: /\.(css|scss)$/,
         use: [
           'style-loader',
