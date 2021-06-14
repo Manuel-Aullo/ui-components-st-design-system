@@ -1,5 +1,8 @@
 module.exports = ({ config }) => ({
   ...config,
+  node: {
+    fs: 'empty'
+  },
   module: {
     ...config.module,
     rules: [
