@@ -5,8 +5,12 @@ module.exports = {
   ],
   "addons": [
     {
-      name: '@storybook/addon-docs',
-      options: { configureJSX: true }
+      name: '@storybook/addon-docs/preset',
+      options: { 
+        configureJSX: true, 
+        babelOptions: {},
+        sourceLoaderOptions: null,
+      }
    },
     "@storybook/addon-links",
     "@storybook/addon-essentials",
