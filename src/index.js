@@ -13,6 +13,7 @@ export * from "./components/Expandable";
 export * from "./components/Icon";
 export * from "./components/JiraHighlight";
 export * from "./components/Modal";
+export * from "./components/Paper";
 export * from "./components/SideMenu";
 export * from "./components/Tab"; 
 export * from "./components/Table";

@@ -8,8 +8,7 @@ module.exports = (api) => {
 			"src/components/*.stories.js",
 			"src/templates",
 			"src/**/*.mdx",
-			"src/stories",
-			"src/index.js"
+			"src/stories"
 		]
 	}
 }
