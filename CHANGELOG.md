@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.2.2...v1.3.0) (2021-06-21)
+
+
+### Features
+
+* modified babel config to include only the desired files ([4a012c9](https://github.com/Manuel-Aullo/ui-components-st-design-system/commit/4a012c989874b98795cecdbfcf8dcb3905a26026))
+
 ## [1.2.2](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.2.1...v1.2.2) (2021-06-21)
 
 
