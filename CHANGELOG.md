@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.2.1...v1.2.2) (2021-06-21)
+
+
+### Performance Improvements
+
+* included new components, templates and latest changes, removed webpack config. ([725e877](https://github.com/Manuel-Aullo/ui-components-st-design-system/commit/725e87797d131fbc26fa7b42170c9c34c1816083))
+
 ## [1.2.1](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.2.0...v1.2.1) (2021-04-29)
 
 
