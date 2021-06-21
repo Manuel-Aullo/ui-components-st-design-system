@@ -4,17 +4,12 @@ module.exports = {
     "../src/**/*.stories.@(js|jsx|ts|tsx)"
   ],
   "addons": [
-    {
-      name: '@storybook/addon-docs/preset',
-      options: { 
-        configureJSX: true, 
-        babelOptions: {},
-        sourceLoaderOptions: null,
-      }
-   },
+    "@storybook/addon-docs",
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/preset-create-react-app",
-    '@storybook/addon-a11y',
+    "@storybook/addon-a11y",
+    "storybook-addon-styled-component-theme/dist/preset",
+    "storybook-addon-designs",
   ]
 }

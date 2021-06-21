@@ -19,7 +19,7 @@ const Container = styled.div`
   position: relative;
 
   @media ${mediaDevice} {
-    width: 500px;
+    width: 455px;
   }
 `;
 
@@ -80,7 +80,7 @@ const BodyContainer = styled.div`
   flex-direction: column;
 
   @media ${mediaDevice} {
-    width: 445px;
+    width: 400px;
     margin-left: 29px;
     margin-top: 29px;
   }
@@ -189,7 +189,7 @@ const Divider = styled.div`
   width: 331px;
 
   @media ${mediaDevice} {
-    width: 445px;
+    width: 400px;
   }
 `;
 
@@ -220,7 +220,7 @@ const ValueContainer = styled.div`
   flex-direction: column;
 
   @media ${mediaDevice} {
-    width: 135px;
+    width: 120px;
   }
 `;
 
@@ -610,24 +610,35 @@ function SDFeedback({ item }) {
           <Avg1>(Avg)</Avg1>
         </RatingContainer>
         <Divider dividerColor={item.dividerColor} />
-        <FeedbackContainer>
-          <Avg2>Avg.</Avg2>
-          <Ratings>
-            <RatingAvg>{item.feedbackAverage}</RatingAvg>
-            <RatingMax>{`/ ${item.feedbackMax}`}</RatingMax>
-          </Ratings>
-          {item.feedbacks.map((feedback, index) => {
-            return (
-              <Fragment key={index}>
-                <StarContainer>
-                  <JiraCode>{feedback.jiraCode}</JiraCode>
-                  <Stars starCount={feedback.stars} dimColor={item.dimColor} />
-                </StarContainer>
-                <Comment>{feedback.text}</Comment>
-              </Fragment>
-            );
-          })}
-        </FeedbackContainer>
+        {item.feedbacks.length ? (
+          <FeedbackContainer>
+            <Avg2>Avg.</Avg2>
+            <Ratings>
+              <RatingAvg>{item.feedbackAverage}</RatingAvg>
+              <RatingMax>{`/ ${item.feedbackMax}`}</RatingMax>
+            </Ratings>
+            {item.feedbacks.map((feedback, index) => {
+              return (
+                <Fragment key={index}>
+                  <StarContainer>
+                    <JiraCode>{feedback.jiraCode}</JiraCode>
+                    <Stars
+                      starCount={feedback.stars}
+                      dimColor={item.dimColor}
+                    />
+                  </StarContainer>
+                  <Comment>{feedback.text}</Comment>
+                </Fragment>
+              );
+            })}
+          </FeedbackContainer>
+        ) : (
+          <FeedbackContainer>
+            <Ratings>
+              <RatingAvg>-</RatingAvg>
+            </Ratings>
+          </FeedbackContainer>
+        )}
       </BodyContainer>
     </Container>
   );

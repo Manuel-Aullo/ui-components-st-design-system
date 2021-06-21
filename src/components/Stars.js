@@ -1,6 +1,6 @@
 import React from "react";
-import Star from "../shared/logos/Star.svg";
 import styled from "styled-components";
+import Star from "../shared/logos/Star.svg";
 
 const IconRect = styled.div`
   width: 15px;

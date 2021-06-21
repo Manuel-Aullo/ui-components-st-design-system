@@ -1,19 +1,19 @@
 import { Meta, ColorPalette, ColorItem } from "@storybook/addon-docs/blocks";
-import { color } from "./shared/styles";
-import { colors } from "./shared/styles";
-<Meta title="Design System/Colors"/>;
+import { color, colors } from "../shared/styles";
+
+<Meta title="Design System/Colors"/>
 
 # Colors
 
 ## Brand Primary Colors
 
 <ColorPalette>
-  <ColorItem
-    title="theme.color.primary.CCPurple"
-    subtitle="CC Purple"
-    colors={[colors.primary.CCPurple]}
-  />
-  <ColorItem
+<ColorItem
+  title="theme.color.primary.CCPurple"
+  subtitle="CC Purple"
+  colors={[colors.primary.CCPurple]}
+/>
+<ColorItem
     title="theme.color.primary.CCBlue"
     subtitle="CC Blue"
     colors={[colors.primary.CCBlue]}

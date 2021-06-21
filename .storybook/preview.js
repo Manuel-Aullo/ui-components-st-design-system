@@ -1,9 +1,7 @@
 import React from 'react';
 import { GlobalStyle } from '../src/shared/global';
-import serviceReportTheme from './designSystemTheme';
-const { addDecorator } = require('@storybook/react');
-const { jsxDecorator } = require('storybook-addon-jsx');
-addDecorator(jsxDecorator);
+import serviceReportTheme from './serviceReportTheme.js';
+
 // Global decorator to apply the styles to all stories
 export const decorators = [
   Story => (

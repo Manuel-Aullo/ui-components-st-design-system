@@ -4,12 +4,12 @@ import { typography } from "../shared/styles";
 import { CustomerCard } from "./CustomerCard";
 import { figmaLinks } from "../shared/figmaLinks";
 import {
-  JiraStatsData,
-  JiraStatsData2,
-  SDFeedbackData,
-  SDFeedbackData2,
-  KammiData,
-  KammiData2,
+  SDFeedbackData1,
+  SDFeedbackData3,
+  KammiSC3,
+  KammiSC4,
+  JiraStatsAcme1,
+  JiraStatsSterling2,
 } from "./CustomerCardExample";
 
 export default {
@@ -48,9 +48,9 @@ export const JiraStatistics = (args) => (
   <Main>
     <Header>Customer Cards</Header>
     <SubHeader>Jira Statistics</SubHeader>
-    <CustomerCard item={JiraStatsData} />
+    <CustomerCard item={JiraStatsAcme1} />
     <br />
-    <CustomerCard item={JiraStatsData2} />
+    <CustomerCard item={JiraStatsSterling2} />
   </Main>
 );
 
@@ -58,9 +58,9 @@ export const SDFeedback = (args) => (
   <Main>
     <Header>Customer Cards</Header>
     <SubHeader>SD Feedback</SubHeader>
-    <CustomerCard item={SDFeedbackData} />
+    <CustomerCard item={SDFeedbackData1} />
     <br />
-    <CustomerCard item={SDFeedbackData2} />
+    <CustomerCard item={SDFeedbackData3} />
   </Main>
 );
 
@@ -68,9 +68,9 @@ export const Kammi = (args) => (
   <Main>
     <Header>Customer Cards</Header>
     <SubHeader>Kammi Feedback</SubHeader>
-    <CustomerCard item={KammiData} />
+    <CustomerCard item={KammiSC3} />
     <br />
-    <CustomerCard item={KammiData2} />
+    <CustomerCard item={KammiSC4} />
   </Main>
 );
 
