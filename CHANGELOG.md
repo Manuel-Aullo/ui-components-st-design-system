@@ -1,3 +1,11 @@
+## [1.3.2](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.3.1...v1.3.2) (2021-06-23)
+
+
+### Bug Fixes
+
+* edited readme.md file Merge branch 'master' of github.com:Manuel-Aullo/ui-components-st-design-system ([6711282](https://github.com/Manuel-Aullo/ui-components-st-design-system/commit/67112822f13899c5a4b3da229417ff700f4d9255))
+* modified readme file ([421c2bd](https://github.com/Manuel-Aullo/ui-components-st-design-system/commit/421c2bd2cfc07812e6d373373f942d8eea681a2c))
+
 ## [1.3.1](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.3.0...v1.3.1) (2021-06-21)
 
 
