@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.3.0...v1.3.1) (2021-06-21)
+
+
+### Bug Fixes
+
+* include index.js in babel configuration ([5ba237c](https://github.com/Manuel-Aullo/ui-components-st-design-system/commit/5ba237c068a7b8f361ca7ff008de3cacde0cfc91))
+
 # [1.3.0](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.2.2...v1.3.0) (2021-06-21)
 
 
