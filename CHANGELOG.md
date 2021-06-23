@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.3.3...v1.3.4) (2021-06-23)
+
+
+### Bug Fixes
+
+* modified readme file ([30b0b8f](https://github.com/Manuel-Aullo/ui-components-st-design-system/commit/30b0b8febb2b20f5ba1c62ee9d7d664e5a9e5fbb))
+
 ## [1.3.3](https://github.com/Manuel-Aullo/ui-components-st-design-system/compare/v1.3.2...v1.3.3) (2021-06-23)
 
 
