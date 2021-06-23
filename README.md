@@ -1,18 +1,18 @@
-# Create a project using react and CRA
+## Create a project using react and CRA
 
 Using CRA is optional
 
-### npx create-react-app ui-consumer-app
+###### `npx create-react-app ui-consumer-app`
 
-# Install the ui library package into your project
+## Install the ui library package into your project
 
-### `npm i cc-ui-components`
+###### `npm i cc-ui-components`
 
-# Start your project
+## Start your project
 
-### `npm start`
+###### `npm start`
 
-# Modify your public/index.html file to import the Source-Sans Pro font
+## Modify your public/index.html file to import the Source-Sans Pro font
 
 ```
 <head>
@@ -28,9 +28,9 @@ Using CRA is optional
 </head>
 ```
 
-# Import the Source-Sans Pro font from the NPM package
+## Import the Source-Sans Pro font from the NPM package
 
-If you don't want to rely on a CDN to import your font, you can alternatively include the font into your project  importing it from the NPM package in woff and woff2 formats from `cc-ui-components/dist/fonts` in a manner that suites your project the best.
+If you don't want to rely on a CDN to import your font, you can alternatively include the font into your project importing it from the NPM package in woff and woff2 formats from `cc-ui-components/dist/fonts` in the way that best suits your project.
 
 ```
 source-sans-pro-v14-latin-italic.woff';
@@ -59,7 +59,7 @@ source-sans-pro-v14-latin-200.woff';
 source-sans-pro-v14-latin-200italic.woff2';
 ```
 
-# Modify your App.js file and remove auto generated styles from the generated project 
+## Modify your App.js file and remove auto generated styles from the generated project 
 
 ```
 import { GlobalStyle } from "cc-ui-components/dist/shared/global";
