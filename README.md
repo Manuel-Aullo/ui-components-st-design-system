@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Create a project using react and CRA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Using CRA is optional
 
-## Available Scripts
+### npx create-react-app ui-consumer-app
 
-In the project directory, you can run:
+# Install the ui library package into your project
 
-### `yarn start`
+### `npm i cc-ui-components`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Start your project
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `npm start`
 
-### `yarn test`
+# Modify your public/index.html file to import the Source-Sans Pro font
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+<head>
+...
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+...
+</head>
+<style>
+    body {
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+</style>
+```
 
-### `yarn build`
+# Import the Source-Sans Pro font from the NPM package
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If you don't want to rely on a CDN to import your font, you can alternatively include the font into your project  importing it from the NPM package in woff and woff2 formats from `cc-ui-components/dist/fonts` in a manner that suites your project the best.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+source-sans-pro-v14-latin-italic.woff';
+source-sans-pro-v14-latin-regular.woff';
+source-sans-pro-v14-latin-200.woff';
+source-sans-pro-v14-latin-200italic.woff';
+source-sans-pro-v14-latin-200.woff';
+source-sans-pro-v14-latin-200italic.woff';
+source-sans-pro-v14-latin-200.woff';
+source-sans-pro-v14-latin-200italic.woff';
+source-sans-pro-v14-latin-200.woff';
+source-sans-pro-v14-latin-200italic.woff';
+source-sans-pro-v14-latin-200.woff';
+source-sans-pro-v14-latin-200italic.woff';
+source-sans-pro-v14-latin-italic.woff2';
+source-sans-pro-v14-latin-regular.woff2';
+source-sans-pro-v14-latin-200.woff2';
+source-sans-pro-v14-latin-200italic.woff2';
+source-sans-pro-v14-latin-200.woff';
+source-sans-pro-v14-latin-200italic.woff2';
+source-sans-pro-v14-latin-200.woff';
+source-sans-pro-v14-latin-200italic.woff2';
+source-sans-pro-v14-latin-200.woff';
+source-sans-pro-v14-latin-200italic.woff2';
+source-sans-pro-v14-latin-200.woff';
+source-sans-pro-v14-latin-200italic.woff2';
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Modify your App.js file and remove auto generated styles from the generated project 
 
-### `yarn eject`
+```
+import { GlobalStyle } from "cc-ui-components/dist/shared/global";
+import { Table } from "cc-ui-components";
+import { paginationTableData } from "cc-ui-components/dist/components/data";
+import { Icon } from "cc-ui-components";
+import { SideMenu } from "cc-ui-components";
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+function App() {
+  return (
+    <div className="App">
+      <GlobalStyle/>
+      <Icon icon="normal" aria-hidden />
+      <Table data={paginationTableData} isSortable />
+      <SideMenu />
+    </div>
+  );
+}
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+export default App;
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
