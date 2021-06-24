@@ -6,28 +6,28 @@ export const SIDE_MENU_ACTIONS = {
 
 export const initialState = {
   customers: [
-    { name: "OLD SOK Paikkatieto", id: 1, checked: false },
-    { name: "SOK Flexera", id: 2, checked: false },
+    { name: "Company 1 ", id: 1, checked: false },
+    { name: "Company 2", id: 2, checked: false },
     {
-      name: "Alma Media Oyj",
+      name: "Company 3",
       id: 3,
       checked: false,
       treeOpen: false,
       indeterminate: false,
       tree: [
         {
-          name: "Aamujakelu Oy",
+          name: "Company 3a",
           id: 31,
           checked: false,
           treeOpen: false,
           indeterminate: false,
-          tree: [{ name: "Alma Manu", id: 311, checked: false }],
+          tree: [{ name: "Company 3a1", id: 311, checked: false }],
         },
-        { name: "Aamulehti", id: 32, checked: false },
+        { name: "Company 3b", id: 32, checked: false },
       ],
     },
-    { name: "MTV", id: 4, checked: false },
-    { name: "Suomen Osuuskauppojen Keskuskunta SOK", id: 5, checked: false },
+    { name: "Company 4", id: 4, checked: false },
+    { name: "Company 5", id: 5, checked: false },
     {
       name: "Other customers",
       id: 6,
@@ -36,34 +36,34 @@ export const initialState = {
       indeterminate: false,
       tree: [
         {
-          name: "A-lehdet",
+          name: "Company 6",
           id: 61,
           checked: false,
           treeOpen: false,
           indeterminate: false,
           tree: [
             {
-              name: "A-lehdet Passionate Suoport for AWS",
+              name: "Company 6a ",
               id: 611,
               checked: false,
             },
           ],
         },
-        { name: "Aktia Pankki Oyj", id: 62, checked: false },
+        { name: "Company 7", id: 62, checked: false },
         {
-          name: "Barona Oy",
+          name: "Company 8",
           id: 63,
           checked: false,
           treeOpen: false,
           indeterminate: false,
           tree: [
             {
-              name: "Barona Passionate Suoport for AWS",
+              name: "Company 8a",
               id: 631,
               checked: false,
             },
             {
-              name: "Barona Passionate Suoport for Azure",
+              name: "Company 8b",
               id: 632,
               checked: false,
             },
